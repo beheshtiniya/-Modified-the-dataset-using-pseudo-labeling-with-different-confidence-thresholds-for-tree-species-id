@@ -12,7 +12,7 @@ To systematically evaluate model predictions across multiple training runs and e
 
 ## 🧩 Workflow Overview
 
-For each trained model directory (`th_0.95_run_1`, `th_0.95_run_2`, etc.), the following steps are performed:
+For each trained model directory (`th_0.5_run_1`,`th_0.55_run_1`,.....`th_0.95_run_1`, `th_0.95_run_2`, etc.), the following steps are performed:
 
 1. **Model Loading**  
    Load the final checkpoint (`fasterrcnn_selftrained_final.pth`) from each training run.
