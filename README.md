@@ -9,6 +9,7 @@
    This script executes 4 self-training iterations for each threshold.  
 4. Run `final_test.py` to generate predictions using the trained model, filter the predictions based on IoU, and compute the confusion matrix.  
 5. Execute `map.py` to compute the final mAP metric.  
-6. Copy the resulting confusion matrices into the appropriate section of the Excel file Explanations are available in [`pseudo_labeling_results_explain.md`](pseudo_labeling _results_explain.md). Metrics will be automatically calculated. Compare results across thresholds to identify the optimal one.
+6. Copy the resulting confusion matrices into the appropriate section of the Excel file. Explanations are available in [`pseudo_labeling_results_explain.md`](pseudo_labeling_results_explain.md).
+Metrics will be automatically calculated. Compare results across thresholds to identify the optimal one.
 
 ---
